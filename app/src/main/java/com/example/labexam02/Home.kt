@@ -25,7 +25,7 @@ class Home : AppCompatActivity() {
         btnNavNavigate.setOnItemSelectedListener { item->
             when(item.itemId){
                 R.id.home->{
-                    startActivity(Intent(this, Videocall::class.java))
+                    startActivity(Intent(this, Home::class.java))
                     true
 
                 }

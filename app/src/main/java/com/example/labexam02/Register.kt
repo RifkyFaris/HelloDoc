@@ -2,7 +2,7 @@ package com.example.labexam02
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
@@ -22,6 +22,12 @@ class Register : AppCompatActivity() {
         val registerNavigate:AppCompatButton=findViewById(R.id.register)
         registerNavigate.setOnClickListener {
             val intent=Intent(this,Login::class.java)
+            startActivity(intent)
+        }
+        val haveAnAccount:TextView=findViewById(R.id.haveAnAccount)
+        haveAnAccount.setOnClickListener {
+            val intent=Intent(this,Login::class.java)
+            startActivity(intent)
         }
     }
 }
