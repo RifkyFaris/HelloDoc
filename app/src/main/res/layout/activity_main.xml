@@ -46,7 +46,7 @@
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
-            android:text="Welcome to Your Health Journey"
+            android:text="@string/sliderText"
             android:textAlignment="center"
             android:textColor="@color/blue"
             android:textSize="28dp"
